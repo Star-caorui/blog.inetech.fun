@@ -1,9 +1,24 @@
+html {
+  color-scheme: light dark;
+}
+
 body {
-  color: #222;
-  font-family: sans-serif;
+  font-family: system-ui;
+  font-size: 1.125rem;
   line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+}
+
+header, main, footer {
+  width: min(65ch, 100% - 4rem);
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
 }
 
 header {
