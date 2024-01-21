@@ -1,0 +1,4 @@
+baseURL = 'https://blog.inetech.fun/'
+languageCode = 'zh-cn'
+title = 'iNetech Blog'
+theme = 'Better'
