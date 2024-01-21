@@ -3,11 +3,12 @@ title: "更改 Typecho 的 头像源"
 slug: "typecho-change-gra"
 date: 2021-01-29T12:29:00.000Z
 categories:
-- 教程
+- 技术
 tags:
 - Gravatar
 - 头像源
-- Typecho
+- Typecho头像源
+aliases: /Tutorial/typecho-change-gra.html
 ---
 
 *本文介绍了如何修改 Typecho 的 Gravatar 头像源*

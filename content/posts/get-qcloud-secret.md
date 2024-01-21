@@ -3,9 +3,14 @@ title: "如何获取腾讯云 MFA 的密钥"
 slug: "get-qcloud-secret"
 date: 2022-02-11T08:12:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- 2FA
+- MFA
+- OTP
+- TOTP
+- 腾讯云
+aliases: /Tutorial/get-qcloud-secret.html
 ---
 
 *通过抓包获取腾讯云 MFA 的密钥。*
@@ -29,4 +34,3 @@ tags:
   抓到了「密钥」后，把「密钥」手动填入 2FA 工具软件内，即可使用第三方工具进行你的二步验证啦～
 
 ### 具体抓包工具的用法请自行了解。就酱～
-

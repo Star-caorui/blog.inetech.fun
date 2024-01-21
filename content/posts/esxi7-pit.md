@@ -3,9 +3,11 @@ title: "记一次安装 ESXI 7 遇到的坑"
 slug: "esxi7-pit"
 date: 2022-07-02T08:38:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- ESXI
+- 虚拟化
+aliases: /Tutorial/esxi7-pit.html
 ---
 
 ### 无法使用 `M.2 NVMe SSD` 作为系统盘

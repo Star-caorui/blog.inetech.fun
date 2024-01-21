@@ -3,9 +3,10 @@ title: "常见设备找回"
 slug: "find-my-device"
 date: 2023-01-23T13:38:00.000Z
 categories:
-- 闲聊
+- 实用
 tags:
-
+- 设备找回
+aliases: /Talk/find-my-device.html
 ---
 
 ### Windows 设备找回

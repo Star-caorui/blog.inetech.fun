@@ -3,9 +3,11 @@ title: "使用 bwrap 让你的程序不在 $HOME 乱拉屎"
 slug: "use-bwrap-to-isolate-storage"
 date: 2022-02-26T12:50:00.000Z
 categories:
-- 教程
+- 技术
 tags:
 - bwrap
+- 存储空间隔离
+aliases: /Tutorial/use-bwrap-to-isolate-storage.html
 ---
 
 *本文讲述了如何让你的 Linux 像在 Android 使用 “存储空间隔离“ 这款软件一样隔离软件的文件存储，防止乱拉屎。*

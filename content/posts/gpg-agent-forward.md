@@ -3,9 +3,12 @@ title: "如何使用 GPG-Agent Forward 在服务器上使用本地密钥"
 slug: "gpg-agent-forward"
 date: 2022-02-09T17:35:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- GPG
+- GPG-Agent
+- GPG-Agent Forward
+aliases: /Tutorial/gpg-agent-forward.html
 ---
 
 *我是瞎子，wiki 写的清清楚楚，但我就是没看见（指本文第三步），诶呀我好气呀。*

@@ -3,11 +3,12 @@ title: "如何获取网站的源站 IP 地址"
 slug: "get-website-ip"
 date: 2020-07-11T06:18:00.000Z
 categories:
-- 安全
+- 技术
 tags:
 - 网站安全
 - 安全防御
 - 源站IP
+aliases: /Security/get-website-ip.html
 ---
 
 *本文介绍了一些获取源站 IP 的漏洞，希望看到这篇文章的博主及时修正这些问题！*

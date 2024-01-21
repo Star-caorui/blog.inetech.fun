@@ -3,9 +3,12 @@ title: "如何准备一个 Arch Linux 的 Deepin 子系统"
 slug: "arch-subsystem-deepin"
 date: 2022-03-03T16:15:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- Arch Linux
+- Deepin
+- systemd-nspawn
+aliases: /Tutorial/arch-subsystem-deepin.html
 ---
 
 > 本文在 2022-05-04 发现已失效，故已隐藏。如您通过其他途径访问到此处，请切记本文已失效。

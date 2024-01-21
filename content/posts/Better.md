@@ -7,6 +7,7 @@ categories:
 tags:
 - Better
 - Typecho主题
+aliases: /Project/Better.html
 ---
 
 *我希望，我能写出更好的主题，希望我不负此名。*
@@ -63,4 +64,3 @@ tags:
 [6]: https://www.gymxbl.com/3080.html
 [7]: https://www.gymxbl.com
 [8]: https://dida365.com/pub/project/collaboration/invite/e7ce07716f2149758295406debc88082?u=d6a4637c85774a25b9a7dc9a2ccaa8e8
-

@@ -3,9 +3,11 @@ title: "通过 Air Play 在你的 Arch Linux 播放音乐"
 slug: "use-airplay-on-arch"
 date: 2021-11-14T15:09:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- Air Play
+- Arch Linux
+aliases: /Tutorial/use-airplay-on-arch.html
 ---
 
 *因为我打算使用 Apple Music 当我的音乐播放器，但 Apple Music 在 Arch Linux 下体验并不好，aur 的客户端是一个网页版套壳，网页版使用体验也就那样。不如通过 iPhone 播放然后把音频推到我的 Arch Linux,这样岂不是可以使用手机播放音乐，使用电脑的扬声器播放音乐了？（你甚至可以用 Siri/Apple Watch 来切歌）*

@@ -5,7 +5,9 @@ date: 2021-12-25T05:02:00.000Z
 categories:
 - 测评
 tags:
-
+- 微信
+- WeChat
+aliases: /Evaluation/evaluation-wechat.html
 ---
 
   *显得没事随手测一下微信客户端之间的差异*

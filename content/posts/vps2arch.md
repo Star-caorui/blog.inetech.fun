@@ -3,12 +3,11 @@ title: "如何在云服务器上装 Arch Linux"
 slug: "vps2arch"
 date: 2020-06-09T15:31:00.000Z
 categories:
-- 教程
+- 技术
 tags:
 - Arch Linux
 - 云服务器
-- 云服务商
-- Linux
+aliases: /Tutorial/vps2arch.html
 ---
 
 *这篇文章讲了如何在云服务器上安装一个 Arch Linux，不推荐没有 Linux 操作经验的用户使用 Arch Linux。*

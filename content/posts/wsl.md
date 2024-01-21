@@ -3,9 +3,13 @@ title: "使用 Windows 11 的 WSL2 运行 ChatGLM 大模型"
 slug: "wsl"
 date: 2024-01-17T20:42:32.000Z
 categories:
-- 默认
+- 技术
 tags:
-
+- WSL
+- CUDA
+- ChatGLM
+- 大语言模型
+aliases: /Default/wsl.html
 ---
 
 文章施工中~~
@@ -23,7 +27,7 @@ sudo apt-get -y install cuda-toolkit-12-3
   进入目录：cd ChatGLM-6B
 拉取依赖：pip install -r requirements.txt
   （可能需要换源以及使用科学上网）
-python
+```python
 from transformers import AutoTokenizer, AutoModel
 tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm-6b", trust_remote_code=True)
 model = AutoModel.from_pretrained("THUDM/chatglm-6b", trust_remote_code=True).half().cuda()
@@ -32,5 +36,5 @@ response, history = model.chat(tokenizer, "你好", history=[])
 print(response)
 response, history = model.chat(tokenizer, "晚上睡不着应该怎么办", history=history)
 print(response)
-
+```
 完成~！

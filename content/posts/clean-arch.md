@@ -3,9 +3,10 @@ title: "如何规整你的 Arch Linux 系统"
 slug: "clean-arch"
 date: 2023-01-27T11:35:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- Arch Linux
+aliases: /Tutorial/clean-arch.html
 ---
 
 前言：请了解[根目录的结构][1]，并达成共识。约定好我们不应该处理哪些文件夹。
@@ -38,7 +39,7 @@ tags:
 - /var
   此目录**需要做处理**。关于此目录的介绍请参阅：[持久变量系统数据][2]
 
-### 虚拟内核和 API 文件系统  
+### 虚拟内核和 API 文件系统
   此目录**不做处理**。因为这是一个虚拟内核和 API 文件系统。详细信息请参阅：[虚拟内核和 API 文件系统][3]
 - dev
 - proc
@@ -100,7 +101,7 @@ sudo pacman -Qkk 2>&1 | grep /opt
 ### 卸载不需要的软件
 ```shell
 # 查找主动安装的软件包
-pacman -Qe 
+pacman -Qe
 
 # 查找主动安装的，不在 base 包组里的软件包。
 comm -23 <(pacman -Qqe | sort) <(expac -l '\n' '%E' base | sort)
@@ -140,7 +141,7 @@ sudo systemd-sysusers
 ```
 
 ### 参考资料
-- [Arch File-Hierarchy][4] 
+- [Arch File-Hierarchy][4]
 - [Pacman Tips_and_tricks][5]
 - [Users_and_groups][6]
 - [System_maintenance][7]

@@ -3,9 +3,12 @@ title: "在 Arch Linux 使用 DOH 来加密你的 DNS"
 slug: "dns-over-https-on-arch"
 date: 2021-12-12T22:38:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- Arch Linux
+- DNS
+- DOH
+aliases: /Tutorial/dns-over-https-on-arch.html
 ---
 
   *我最近被 DNS 劫持，DNS 污染搞得有些烦躁。Github, Google Translate, v2ex 都无法正常访问，于是我开始研究如何在 Arch Linux 使用 DOH 了。（DOH 就是 DNS Over HTTPS，是通过 HTTPS 加密使用的 DNS。）*

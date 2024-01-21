@@ -3,10 +3,10 @@ title: "Windows 常用软件推荐"
 slug: "windows-common-software-recommendations"
 date: 2022-01-20T08:44:00.000Z
 categories:
-- 测评
+- 推荐
 tags:
-- Windows
-- 软件
+- Windows常用软件
+aliases: /Evaluation/windows-common-software-recommendations.html
 ---
 
 # Windows 常用软件推荐

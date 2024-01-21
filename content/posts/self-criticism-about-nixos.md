@@ -3,9 +3,11 @@ title: "【自我批评】因 NixOS 初装后得意忘形引发的反思"
 slug: "self-criticism-about-nixos"
 date: 2022-01-11T09:36:00.000Z
 categories:
-- 闲聊
+- 反思
 tags:
-
+- NixOS
+- Arch Linux CN
+aliases: /Talk/self-criticism-about-nixos.html
 ---
 
 *这是一篇因 NixOS 初装后得意忘形引发的反思，自我批评。*

@@ -3,10 +3,11 @@ title: "一些有趣的 Arch 安装教程"
 slug: "some-arch-install-tutorial"
 date: 2021-12-23T19:01:00.000Z
 categories:
-- 教程
+- 技术
 tags:
 - Arch Linux
-- Linux
+- Arch 安装教程
+aliases: /Tutorial/some-arch-install-tutorial.html
 ---
 
   *我最近发现了一些有意思的 Arch 安装教程，想和大家分享推荐一下，于是便有了这篇文章。*

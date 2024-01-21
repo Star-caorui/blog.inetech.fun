@@ -3,9 +3,11 @@ title: "记一次 Arch Linux 的重新安装"
 slug: "reinstall-arch"
 date: 2022-12-24T18:19:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- Arch Linux
+- Arch 安装教程
+aliases: /Tutorial/reinstall-arch.html
 ---
 
   最近有个朋友送了块硬盘给我。既然多了块硬盘，那就装个 Arch Linux 吧！

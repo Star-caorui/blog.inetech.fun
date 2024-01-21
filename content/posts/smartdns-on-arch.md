@@ -3,9 +3,12 @@ title: "在 Arch Linux 使用 SmartDNS 来加速 DNS 解析"
 slug: "smartdns-on-arch"
 date: 2022-09-04T01:04:00.000Z
 categories:
-- 教程
+- 技术
 tags:
-
+- DNS
+- SmartDNS
+- Arch Linux
+aliases: /Tutorial/smartdns-on-arch.html
 ---
 
 ### 前言

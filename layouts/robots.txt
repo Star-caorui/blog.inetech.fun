@@ -1,0 +1,10 @@
+User-agent: bing
+User-agent: bingbot
+User-agent: google
+User-agent: googlebot
+Allow: /$
+Allow: /*.html$
+Disallow: /*
+
+User-agent: *
+Disallow: /

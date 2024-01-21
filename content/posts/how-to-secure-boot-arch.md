@@ -3,11 +3,12 @@ title: "如何安全启动 Arch Linux"
 slug: "how-to-secure-boot-arch"
 date: 2021-10-17T13:33:00.000Z
 categories:
-- 教程
+- 技术
 tags:
 - Arch Linux
 - systemd-boot
 - secure-boot
+aliases: /Tutorial/how-to-secure-boot-arch.html
 ---
 
 *安全启动是可以保护你的引导程序不受篡改的一项技术。它的原理是给引导程序签名，让你的计算机信任这个签名，并仅允许启动有可信签名的引导程序。一旦有人恶意往引导程序注入些东西时，由于签名被破坏，计算机就出于安全目的停止启动了。*
@@ -38,7 +39,7 @@ tags:
   - 这可能会有兼容性问题（我使用的是 Arch To Go，在其他电脑可能无法正常工作），部分主板的安全启动不支持使用你自己的密钥。
   - 通过 “使用你自己的密钥” 来实现安全启动配置较为复杂。详见 Arch Wiki [Using_your_own_keys][1]. 本文在此处不做过多介绍。
 
-##### 我为什么不推荐使用 Preload 这种方法呢？ 
+##### 我为什么不推荐使用 Preload 这种方法呢？
   - Preload 更新引导程序/内核后需要重新向 efivar 写入哈希校验。这可能会损害固件。
 
 ### 在 Arch Linux 上启用安全启动（教程）
