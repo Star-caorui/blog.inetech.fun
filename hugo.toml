@@ -1,5 +1,5 @@
 baseURL = 'https://blog.inetech.fun/'
-DefaultContentLanguage = "zh-hant"
+DefaultContentLanguage = "zh"
 languageCode = 'zh-cmn-Hans'
 title = 'iNetech Blog'
 theme = 'diary'
