@@ -29,7 +29,7 @@ name = "标签"
 weight = 3
 
 [[menu.main]]
-url - "/links"
+url = "/links"
 name = "友链"
 weight = 4
 
