@@ -33,7 +33,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: hugo --minify
-
+        
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -52,3 +52,6 @@ jobs:
         
       - name: Upload to COS
         run: coscmd upload -rfs --delete public/ /
+
+      - name: Show COS Storage Size
+        run: du -h -d 0 ./public
