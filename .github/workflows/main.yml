@@ -1,0 +1,59 @@
+name: iNetech Blog Builder
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["master"]
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.124.1
+    steps:
+      - name: Install Hugo CLI...
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass...
+        run: sudo snap install dart-sass
+
+      - name: Checkout CodeSpace...
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --minify
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+        python-version: 3.9
+
+      - name: Setup coscmd
+        run: sudo pip install coscmd
+
+      - name: Configure coscmd
+        env:
+          SECRET_ID: ${{ secrets.SecretId }}
+          SECRET_KEY: ${{ secrets.SecretKey }}
+          BUCKET: ${{ secrets.Bucket }}
+          REGION: ${{ secrets.Region }}
+        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+        
+      - name: Upload to COS
+        run: coscmd upload -rfs --delete public/ /
