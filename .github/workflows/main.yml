@@ -34,13 +34,6 @@ jobs:
           HUGO_ENV: production
         run: hugo --minify
 
-      - name: Debug
-        run: ls .
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
