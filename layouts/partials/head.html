@@ -55,21 +55,11 @@
 <link rel="icon" href="{{ .Site.Params.favicon | absURL }}">
 {{ end }}
 
-    <link type="text/css" rel="stylesheet" href="https://jsd.gymxbl.com/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="https://jsd.gymxbl.com/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
 
-<!-- For compatibility. View https://github.com/AmazingRise/hugo-theme-diary/pull/135 for details.-->
-{{- $hugoVersion := split (replaceRE ".*([0-9]+)\\.([0-9]+)\\.([0-9]+).*" "$1 $2 $3" hugo.Version) " " -}}
-{{- if and (eq (int (index $hugoVersion 0)) 0) (ge (int (index $hugoVersion 1)) 101) -}}
-    {{- /* no leading slash */ -}}
-    {{ if and (not (.Params.disableToC) ) (.IsPage) }}
-      <script src="{{"js/toc.js" | relURL}}"></script>
-    {{ end }}
-{{- else -}}
-    {{- /* with leading slash */ -}}
-    {{ if and (not (.Params.disableToC) ) (.IsPage) }}
-      <script src="{{"/js/toc.js" | relURL}}"></script>
-    {{ end }}
-{{- end -}}
+{{ if and (not (.Params.disableToC) ) (.IsPage) }}
+<script src="https://jsd.gymxbl.com/others/js/toc.js"></script>
+{{ end }}
 
 {{ if not .Site.Params.disableDarkmode }}
 {{ $darkmode := resources.Get "scss/dark-mode.scss" | toCSS | minify | fingerprint }}
