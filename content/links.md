@@ -13,7 +13,7 @@ aliases: /links.html
 [钧言极客](https://www.jinjun.top)  
 [朝露碎梦](https://aibofan.com/)  
 [陈陈菌博客](https://blog.glumi.cn)  
-
+[26英文字母](https://26ywzm.icu)
 
 ### 最新状况
   近期不想添加友链啦，有想法添加友链的可以先友后链。（认识我的可以联系我继续添加友链）
