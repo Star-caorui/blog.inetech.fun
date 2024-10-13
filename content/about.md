@@ -1,7 +1,7 @@
 ---
 title: "关于我"
 slug: "about"
-date: 2024-10-13T20:36:00.000Z
+date: 2020-04-11T18:59:00.000Z
 aliases: /about.html
 ---
 

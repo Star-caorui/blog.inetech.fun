@@ -1,7 +1,7 @@
 ---
 title: "致谢"
 slug: "thanks"
-date: 2024-10-13T20:32:00.000Z
+date: 2022-03-21T01:10:00.000Z
 aliases: /thanks.html
 ---
 
