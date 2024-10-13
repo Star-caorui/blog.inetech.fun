@@ -1,8 +1,8 @@
-title = 'iNetech Blog'
+title   = 'iNetech Blog'
 baseURL = 'https://blog.inetech.fun/'
 
-hasCJKLanguage = 'true'
-languageCode = 'zh-cmn-Hans'
+hasCJKLanguage = true
+languageCode   = 'zh-cmn-Hans'
 DefaultContentLanguage = "zh"
 
 theme = 'diary'
@@ -10,7 +10,7 @@ theme = 'diary'
 paginate = 7
 uglyURLs = false
 enableEmoji = true
-enableRobotsTXT = 'true'
+enableRobotsTXT = true
 
 [params]
 subtitle = "感时花溅泪，恨别鸟惊心。"
@@ -36,9 +36,24 @@ name = "友链"
 weight = 4
 
 [[menu.main]]
+url = "/privacy"
+name = "隐私"
+weight = 5
+
+[[menu.main]]
+url = "/thanks"
+name = "致谢"
+weight = 6
+
+[[menu.main]]
+url = "/about"
+name = "关于"
+weight = 7
+
+[[menu.main]]
 url = "/index.xml"
 name = "订阅"
-weight = 5
+weight = 8
 
 [markup]
   [markup.highlight]
