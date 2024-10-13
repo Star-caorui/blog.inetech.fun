@@ -1,7 +1,7 @@
 ---
 title: "关于我"
 slug: "about"
-date: 2020-04-11T18:59:00.000Z
+date: 2024-10-13T20:36:00.000Z
 aliases: /about.html
 ---
 
@@ -13,24 +13,23 @@ aliases: /about.html
 #### 关于站长 | About me
   - Nickname: Star_caorui, 今夕何夕
   - Blog: https://blog.inetech.fun/
-  - Gitlab: https://gitlab.com/Star_caorui/
   - Github: https://github.com/Star-caorui/
 
 #### 技术栈 | Tech Stack
-  - 办公软件: Office, Photoshop.
-  - 操作系统: Arch Linux, Debian, Ubuntu, Centos, Windows.
-  - 编程语言: PHP, C.
+  - 操作系统: Arch Linux, Windows.
+  - 编程语言: PHP, JavaScript, Python.
   - 数据库: MySQL, SQLite.
   - 开发协作: Git, Github, Markdown.
 
 #### 联系我 | Contact me
-  - ✉️ Email: `Star_caorui@hotmail.com`
+  - ✉️ Email: `i@inetech.fun`
 
 #### 我的 GPG
   - 密钥指纹：`6A34 4018 88C9 B3A3 0A7F 05CB B415 400A EED4 41E9`
   - 此密钥已被吊销：因为我不想再使用 GPG 了。
 
 Premature optimization is the root of all evil.
+
 ### 关于本站
   - 详见:[致谢][1]页面
 
